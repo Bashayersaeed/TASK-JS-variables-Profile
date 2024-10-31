@@ -10,8 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
-
-
+const fullName = "Bashayer Saeed";
+const yearOfBirth = 1983;
+const hobby = "is growing towards coding";
+const funFact = "I can't wait to reach the age of retirement";
+const image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNuh2BVlNI4j1t79n1emXyl0twLcMM61boA&s";
 
 
 
@@ -33,6 +36,9 @@
 // const yearOfBirthString =
 // const hobbyString =
 
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${2024-yearOfBirth}`;
+const hobbyString = `My hobby is ${hobby}`;
 
 
 
@@ -45,14 +51,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars++;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars +=2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars -=2;
 }
